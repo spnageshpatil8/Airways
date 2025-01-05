@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline Reservation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Airline Reservation</h1>
+    <form id="booking-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" placeholder="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" placeholder="Phone" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="from">From</label>
+        <input type="text" placeholder="from" id="from" name="from" required>
+      </div>
+      <div class="form-group">
+        <label for="to">To</label>
+        <input type="text" placeholder="to" id="to" name="to" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="passengers">Passengers</label>
+        <input type="number" id="passengers" name="passengers" required>
+      </div>
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
